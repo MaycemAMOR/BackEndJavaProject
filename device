@@ -1,0 +1,11 @@
+Retrieve all Todos for A User
+GET  /USER/{user_name}/todos/
+
+ Delete a Todo for A User
+ DELETE  /USER/{user_name}/todos/{todo_id}
+ 
+ Edit a Todo for A User
+ PUT /USER/{user_name}/todos/{todo_id}
+ 
+ Create a new Todo 
+ POST /USER/{USER_name}/todos/
